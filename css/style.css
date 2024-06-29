@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Scret;
+    src: url('../font/Beach Sunset.otf') format('opentype');
+}
+
+
+body {
+    font-family: 'Scret';
+    margin: 0;
+    padding: 0;
+    background-color: #1b86064b;
+}
+
+#main {
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    min-width: 100px;
+    max-width: 1360px;
+    background-color: rgba(44, 230, 84, 0.418);
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#main img {
+    width: 100%;
+
+}
+
+#menu {
+    border-radius: 23px;
+    background-color: #0be253c4;
+    padding: 9px;
+    text-align: center;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 98%;
+    box-shadow: 0 11px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+#menu a {
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .3s;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #3219a3;
+}
+#menu > a:hover {
+    padding: 2px;
+    background-color: aliceblue;
+    color: aqua;
+    border-radius: 5px 5px;
+}
+
+#header {
+    background-color: #31a05f62;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#content {
+    text-align: center;
+    padding: 12px 4px 12px 4px;
+    margin: 4px 4px 7px 5px;
+}
+
+#footer {
+    background-color: #2bb391;
+    text-align: center;
+    padding: 1px 1px 0px 0px;
+    margin: 4px -6px 4px -20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    margin: 1px;
+}
+
+#formulario {
+    padding: 60px 6px 0px 8px;
+    margin: -6px;
+    text-align: center;
+    height: 50vh;
+
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
